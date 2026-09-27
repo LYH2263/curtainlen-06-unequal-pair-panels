@@ -7,7 +7,14 @@ body{margin:0;font-family:Segoe UI,sans-serif;background:#e8eef5}
 .cl-content{padding:1rem}
 .cl-roll{background:repeating-linear-gradient(90deg,#aed6f1 0 8px,#85c1e9 8px 16px)}
 .fabric-roll{height:100%;opacity:.4}
-.panel-cut{display:flex;gap:6px;align-items:flex-end;margin-top:1rem}
+.panel-cut{display:flex;gap:12px;align-items:flex-end;margin-top:1rem}
+.panel-side{display:flex;flex-direction:column;gap:4px}
+.panel-row{display:flex;gap:6px;align-items:flex-end}
+.panel-divider{width:2px;height:100%;min-height:60px;background:#1a5276;align-self:stretch}
+.side-label{font-size:.85rem;color:#154360}
 .panel{width:28px;background:#5dade2;border:1px solid #2874a6}
+.panel-right{background:#7dcea0;border-color:#1e8449}
+.ratio{margin-left:.5rem}
+.last-run{margin-top:1rem;padding:.5rem 1rem;background:#fff;border-radius:6px;max-width:fit-content}
 .bad{color:#c0392b}
 .fab{margin:.25rem 0}
