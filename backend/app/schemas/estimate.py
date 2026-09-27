@@ -5,3 +5,4 @@ class EstimateRequest(BaseModel):
     fabric_id: int
     save: bool = False
     note: str = ""
+    left_ratio: float = 0.5
